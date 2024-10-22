@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  db: 
+    image: mysql:latest
+    restart: always
+    container_name: mysql-anatomia1
+    volumes:
+      - mysql-db:/var/lib/mysql
+      - ./backend/mysqldata:/docker-entrypoint-initdb.d
+    environment:
+      - MYSQL_DATABASE=anatomia1
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - "3306:3306"
+    networks:
+      - anatomia-network
+
+  backend:
+    build: ./backend
+    container_name: django-anatomia1
+    command: ["sh", "-c", "python wait_for_mysql.py && python manage.py makemigrations api && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"]
+    volumes:
+      - ./backend:/code
+    ports:
+      - "8000:8000"
+    environment:
+      - MYSQL_DATABASE=anatomia1
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+      - MYSQL_HOST=db
+    networks:
+      - anatomia-network
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    container_name: vue-anatomia1
+    ports:
+      - "8080:8080"
+    networks:
+      - anatomia-network
+volumes:
+  mysql-db:
+networks:
+  anatomia-network:
