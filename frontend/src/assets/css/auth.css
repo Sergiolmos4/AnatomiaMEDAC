@@ -1,0 +1,164 @@
+
+
+/* FORMULARIOS LOGIN/REGISTRO */
+.container {
+    max-width: 300px;
+    margin: auto;
+    padding: 0 70px 0px; 
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    margin-top: 10%;
+  }
+  
+  img{
+    margin-top: 70px;
+  }
+  
+  .title {
+    background-color: #004676;
+    color: white;
+    width: calc(68.4% + 140px); 
+    margin-left: 0px; 
+    padding: 10px 0; 
+    box-sizing: border-box; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+  }
+  
+  .container h3 {
+    text-align: center;
+    color: #004676;
+  }
+  
+  .container a {
+    text-decoration: none;
+    color: #004676;
+  }
+  
+  .container form div {
+    margin-bottom: 15px;
+  }
+  
+  .container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .container input, select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .container button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #004676;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #042942;
+  }
+  
+  .container-a{
+    display: flex;
+    justify-content: space-between;
+  
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .container-a a {
+    margin-top: 40px;
+    font-size: 12px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .container-a a:first-child {
+    text-align: left;
+  }
+  
+  .container-a a:last-child {
+    text-align: right;
+  }
+  
+  
+  
+  
+  
+  /* RECUPERAR CONTRASEÑA */
+  .margin{
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  
+  .small{
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+  }
+  
+  .radius{
+    border-radius: 7px;
+    border: none;
+    border: solid 1px #ccc;
+  }
+  
+  .arrow{
+    font-size: 35px;
+  }
+  
+  
+  
+  
+  /* BARRA NAVEGACION (RECUPERAR CONTRASEÑA) */
+  /* .navbar {
+    background-color: rgba(39, 61, 76, 0.8);
+    color: white;
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1000; 
+  }
+  
+  .navbar-content {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .container {
+    padding-top: 60px; 
+  }
+  
+  .restore-password {
+    max-width: 400px;
+    margin: 2rem auto; 
+    text-align: center;
+  } */
+  
+  
+  
+  .arrow {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.9rem;
+  }
