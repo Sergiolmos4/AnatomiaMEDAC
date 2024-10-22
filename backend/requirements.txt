@@ -1,7 +1,0 @@
-Django
-djangorestframework
-djangorestframework_simplejwt
-django-cors-headers
-django-filter
-mysqlclient
-Pillow
