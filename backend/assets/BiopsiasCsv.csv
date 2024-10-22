@@ -1,0 +1,434 @@
+﻿Organo;Naturaleza;Tipo;Codigo;Descripcion
+Corazón;Biopsia;Calidad;BC.1;Toma válida para examen.
+Corazón;Biopsia;Calidad;BC.2;Toma válida para examen aunque limitada por ausencia de células endocárdicas/zona de transición.
+Corazón;Biopsia;Calidad;BC.3;Toma válida para examen aunque limitada por hemorragia.
+Corazón;Biopsia;Calidad;BC.4;Toma válida para examen aunque limitada por escasez de células.
+Corazón;Biopsia;Calidad;BC.5;Toma válida para examen aunque limitada por intensa citólisis.
+Corazón;Biopsia;Calidad;BC.6;Toma válida para examen aunque limitada por...
+Corazón;Biopsia;Calidad;BC.7;Toma no valorable por desecación.
+Corazón;Biopsia;Calidad;BC.8;Toma no valorable por ausencia de células...
+Corazón;Biopsia;Calidad;BC.9;Toma no valorable por...
+Corazón;Biopsia;Interpretación;1.1;Se observa una arquitectura cardíaca conservada, con una adecuada distribución de miocitos y estructuras vasculares.
+Corazón;Biopsia;Interpretación;1.2;No se observan signos evidentes de necrosis en el tejido cardíaco, lo que sugiere una integridad estructural relativamente normal.
+Corazón;Biopsia;Interpretación;1.3;Identificación de células inflamatorias dispersas en el tejido, indicativas de una respuesta inflamatoria leve o moderada.
+Corazón;Biopsia;Interpretación;1.4;Presencia de áreas de fibrosis en el miocardio, posiblemente como resultado de un proceso de cicatrización tras una lesión cardíaca previa.
+Corazón;Biopsia;Interpretación;1.5;Se detecta una adecuada perfusión sanguínea en los vasos coronarios, indicativa de una circulación coronaria funcional.
+Corazón;Biopsia;Interpretación;1.6;Observación de células cardíacas con una apariencia histológica normal, incluyendo la presencia de discos intercalares y estriaciones transversales.
+Corazón;Biopsia;Interpretación;1.7;No se observan células tumorales ni signos de infiltración neoplásica en el tejido cardíaco.
+Corazón;Biopsia;Interpretación;1.8;Identificación de células endoteliales íntegras en los vasos sanguíneos, sugiriendo una función endotelial adecuada.
+Corazón;Biopsia;Interpretación;1.9;Se observa una distribución regular de fibras de colágeno en el miocardio, indicativo de una matriz extracelular bien organizada.
+Corazón;Biopsia;Interpretación;1.10;No se identifican anomalías estructurales significativas en las válvulas cardíacas ni en las cámaras cardíacas.
+Hígado;Biopsia;Calidad;BH.1;La muestra es válida para el examen.
+Hígado;Biopsia;Calidad;BH.2;Aunque válida, la muestra está limitada por la ausencia de células endoteliales/hepatocitos periportales.
+Hígado;Biopsia;Calidad;BH.3;La muestra es válida para el examen, pero está limitada por la presencia de hemorragia.
+Hígado;Biopsia;Calidad;BH.4;La muestra es válida para el examen, pero está limitada por la escasez de células.
+Hígado;Biopsia;Calidad;BH.5;La muestra es válida para el examen, aunque está limitada por una intensa citolisis.
+Hígado;Biopsia;Calidad;BH.6;La muestra es válida para el examen, aunque está limitada por...
+Hígado;Biopsia;Calidad;BH.7;La muestra no es valorable debido a la desecación.
+Hígado;Biopsia;Calidad;BH.8;La muestra no es valorable debido a la ausencia de células...
+Hígado;Biopsia;Calidad;BH.9;La muestra no es valorable debido a...
+Hígado;Biopsia;Interpretación;2.1;Se observa una arquitectura hepática conservada, con cordones de hepatocitos bien definidos y distribución lobulillar normal.
+Hígado;Biopsia;Interpretación;2.2;Hay presencia de infiltración celular en los sinusoides hepáticos, sugiriendo una respuesta inflamatoria o un proceso infiltrativo.
+Hígado;Biopsia;Interpretación;2.3;Se identifica una acumulación de lípidos en los hepatocitos, indicativo de esteatosis hepática.
+Hígado;Biopsia;Interpretación;2.4;Se observan signos de necrosis focal en el tejido, posiblemente debido a isquemia o daño tóxico.
+Hígado;Biopsia;Interpretación;2.5;Existe una marcada fibrosis periportal, sugiriendo un proceso crónico de inflamación hepática.
+Hígado;Biopsia;Interpretación;2.6;Se observan nódulos de regeneración, indicativos de un proceso de reparación hepática.
+Hígado;Biopsia;Interpretación;2.7;Presencia de células de Kupffer activadas, sugiriendo una respuesta inmunitaria o inflamatoria.
+Hígado;Biopsia;Interpretación;2.8;Se detectan células endoteliales anormales en los vasos sanguíneos hepáticos, lo que podría indicar un proceso neoplásico.
+Hígado;Biopsia;Interpretación;2.9;Se observa una marcada congestión sinusoidal, posiblemente debido a una obstrucción del flujo sanguíneo hepático.
+Hígado;Biopsia;Interpretación;2.10;Hay signos de colestasis intrahepática, indicando una obstrucción en el flujo de la bilis dentro del hígado.
+Estómago;Biopsia;Calidad;BES.1;La muestra es válida para el examen.
+Estómago;Biopsia;Calidad;BES.2;Aunque válida, la muestra está limitada por la presencia de contenido gástrico residual.
+Estómago;Biopsia;Calidad;BES.3;La muestra es válida para el examen, pero está limitada por la presencia de sangre.
+Estómago;Biopsia;Calidad;BES.4;La muestra es válida para el examen, pero está limitada por la escasez de células.
+Estómago;Biopsia;Calidad;BES.5;La muestra es válida para el examen, aunque está limitada por la presencia de moco.
+Estómago;Biopsia;Calidad;BES.6;La muestra es válida para el examen, aunque está limitada por...
+Estómago;Biopsia;Calidad;BES.7;La muestra no es valorable debido a la desecación.
+Estómago;Biopsia;Calidad;BES.8;La muestra no es valorable debido a la ausencia de tejido gástrico...
+Estómago;Biopsia;Calidad;BES.9;La muestra no es valorable debido a...
+Estómago;Biopsia;Interpretación;3.1;Se observa un epitelio gástrico intacto y bien conservado.
+Estómago;Biopsia;Interpretación;3.2;"Presencia de infiltración de células inflamatorias en la lámina propia, sugiriendo una
+respuesta inflamatoria crónica."
+Estómago;Biopsia;Interpretación;3.3;"Identificación de células caliciformes productoras de moco en las glándulas
+gástricas."
+Estómago;Biopsia;Interpretación;3.4;"Signos de erosión superficial de la mucosa gástrica, posiblemente debido a irritación
+crónica."
+Estómago;Biopsia;Interpretación;3.5;"Presencia de gastritis aguda, evidenciada por la infiltración de neutrófilos en la
+mucosa gástrica."
+Estómago;Biopsia;Interpretación;3.6;"Observación de cambios displásicos en el epitelio gástrico, sugiriendo un proceso
+preneoplásico."
+Estómago;Biopsia;Interpretación;3.7;"Detección de Helicobacter pylori en la mucosa gástrica, indicando una infección
+bacteriana."
+Estómago;Biopsia;Interpretación;3.8;"Presencia de metaplasia intestinal en la mucosa gástrica, sugiriendo una adaptación
+al ambiente ácido del estómago."
+Estómago;Biopsia;Interpretación;3.9;"Identificación de células neuroendocrinas en las glándulas gástricas, indicando una
+función endocrina."
+Estómago;Biopsia;Interpretación;3.10;"Signos de ulceración profunda en la mucosa gástrica, posiblemente relacionada
+con un proceso ulceroso crónico."
+Riñón;Biopsia;Calidad;BR.1;La muestra es válida para el examen.
+Riñón;Biopsia;Calidad;BR.2;"Aunque válida, la muestra está limitada por la presencia de tejido adiposo
+perirrenal."
+Riñón;Biopsia;Calidad;BR.3;"La muestra es válida para el examen, pero está limitada por la presencia de sangre
+en el espécimen."
+Riñón;Biopsia;Calidad;BR.4;"La muestra es válida para el examen, pero está limitada por la escasez de
+glomérulos en el corte."
+Riñón;Biopsia;Calidad;BR.5;"La muestra es válida para el examen, aunque está limitada por la presencia de
+artefactos de fijación."
+Riñón;Biopsia;Calidad;BR.6;La muestra es válida para el examen, aunque está limitada por...
+Riñón;Biopsia;Calidad;BR.7;La muestra no es valorable debido a la desecación.
+Riñón;Biopsia;Calidad;BR.8;La muestra no es valorable debido a la ausencia de tejido renal...
+Riñón;Biopsia;Calidad;BR.9;La muestra no es valorable debido a...
+Riñón;Biopsia;Interpretación;4.1;"Se observa una arquitectura renal conservada, con una adecuada distribución de los
+diferentes componentes histológicos."
+Riñón;Biopsia;Interpretación;4.2;Presencia de infiltración de tejido adiposo perirrenal,.
+Riñón;Biopsia;Interpretación;4.3;"Identificación de glóbulos rojos en los túbulos renales, indicativo de hematuria y
+posible lesión glomerular."
+Riñón;Biopsia;Interpretación;4.4;"Signos de esclerosis glomerular, evidenciada por la presencia de matriz extracelular
+aumentada y segmentos glomerulares colapsados."
+Riñón;Biopsia;Interpretación;4.5;"Presencia de artefactos de fijación en el tejido, lo que puede dificultar la
+interpretación precisa de algunas estructuras."
+Riñón;Biopsia;Interpretación;4.6;"Observación de necrosis tubular aguda, caracterizada por la pérdida de la
+arquitectura tubular y la presencia de células necróticas en el lumen tubular."
+Riñón;Biopsia;Interpretación;4.7;"Detección de cilindros hialinos en los túbulos renales, indicando una posible
+proteinuria."
+Riñón;Biopsia;Interpretación;4.8;"Presencia de células inflamatorias en el intersticio renal, sugiriendo una respuesta
+inflamatoria crónica."
+Riñón;Biopsia;Interpretación;4.9;"Identificación de cuerpos ovales grasos en los túbulos renales, indicativos de daño
+renal crónico y degeneración lipídica."
+Riñón;Biopsia;Interpretación;4.10;"Signos de fibrosis intersticial, evidenciada por la presencia de tejido conectivo
+fibroso entre los túbulos renales y los glomérulos."
+Útero;Biopsia;Calidad;BU.1;La muestra es válida para el examen.
+Útero;Biopsia;Calidad;BU.2;"Aunque válida, la muestra está limitada por la presencia de sangre menstrual en el
+espécimen."
+Útero;Biopsia;Calidad;BU.3;"La muestra es válida para el examen, pero está limitada por la escasez de tejido
+endometrial en el corte."
+Útero;Biopsia;Calidad;BU.4;"La muestra es válida para el examen, pero está limitada por la presencia de
+artefactos de fijación."
+Útero;Biopsia;Calidad;BU.5;"La muestra es válida para el examen, aunque está limitada por la presencia de
+células descamadas en el endometrio."
+Útero;Biopsia;Calidad;BU.6;La muestra es válida para el examen, aunque está limitada por...
+Útero;Biopsia;Calidad;BU.7;La muestra no es valorable debido a la desecación.
+Útero;Biopsia;Calidad;BU.8;La muestra no es valorable debido a la ausencia de tejido uterino...
+Útero;Biopsia;Calidad;BU.9;La muestra no es valorable debido a...
+Útero;Biopsia;Interpretación;5.1;"Se observa un endometrio bien conservado, con una adecuada proliferación glandular
+y estroma endometrial."
+Útero;Biopsia;Interpretación;5.2;Presencia de sangre en el espécimen, indicando la fase menstrual del ciclo uterino.
+Útero;Biopsia;Interpretación;5.3;"Identificación de escaso tejido endometrial en el corte, sugiriendo una posible atrofia
+endometrial."
+Útero;Biopsia;Interpretación;5.4;"Signos de artefactos de fijación en el tejido, lo que puede dificultar la interpretación
+precisa de algunas estructuras."
+Útero;Biopsia;Interpretación;5.5;"Observación de células descamadas en el endometrio, indicativas de la fase de
+descamación menstrual."
+Útero;Biopsia;Interpretación;5.6;"Detección de hiperplasia glandular endometrial, sugiriendo un desequilibrio
+hormonal."
+Útero;Biopsia;Interpretación;5.7;"Presencia de infiltración de células inflamatorias en el estroma endometrial,
+indicando una respuesta inflamatoria crónica."
+Útero;Biopsia;Interpretación;5.8;"Identificación de cuerpos de Arias-Stella en las células glandulares, sugiriendo
+cambios hormonales asociados con el embarazo o condiciones patológicas."
+Útero;Biopsia;Interpretación;5.9;"Signos de adenomiosis, evidenciada por la presencia de glándulas endometriales
+dentro del miometrio."
+Útero;Biopsia;Interpretación;5.10;"Presencia de células atípicas en las glándulas endometriales, sugiriendo una posible
+neoplasia endometrial."
+Intestino;Biopsia;Calidad;BI.1;La muestra es válida para el examen.
+Intestino;Biopsia;Calidad;BI.2;"Aunque válida, la muestra está limitada por la presencia de contenido fecal en el
+lumen intestinal."
+Intestino;Biopsia;Calidad;BI.3;"La muestra es válida para el examen, pero está limitada por la escasez de tejido
+mucoso en el corte."
+Intestino;Biopsia;Calidad;BI.4;"La muestra es válida para el examen, pero está limitada por la presencia de
+artefactos de fijación."
+Intestino;Biopsia;Calidad;BI.5;"La muestra es válida para el examen, aunque está limitada por la presencia de
+tejido adiposo perivisceral."
+Intestino;Biopsia;Calidad;BI.6;La muestra es válida para el examen, aunque está limitada por...
+Intestino;Biopsia;Calidad;BI.7;La muestra no es valorable debido a la desecación.
+Intestino;Biopsia;Calidad;BI.8;La muestra no es valorable debido a la ausencia de tejido intestinal...
+Intestino;Biopsia;Calidad;BI.9;La muestra no es valorable debido a...
+Intestino;Biopsia;Interpretación;6.1;"Se observa una mucosa intestinal con vellosidades bien conservadas y un epitelio
+columnar intacto."
+Intestino;Biopsia;Interpretación;6.2;"Presencia de contenido fecal en el lumen intestinal, indicando la fase digestiva del
+proceso."
+Intestino;Biopsia;Interpretación;6.3;"Identificación de escaso tejido mucoso en el corte, sugiriendo una posible atrofia de
+las glándulas mucosas."
+Intestino;Biopsia;Interpretación;6.4;"Signos de artefactos de fijación en el tejido, lo que puede dificultar la interpretación
+precisa de algunas estructuras."
+Intestino;Biopsia;Interpretación;6.5;"Observación de tejido adiposo perivisceral, indicativo de la ubicación anatómica de
+la muestra."
+Intestino;Biopsia;Interpretación;6.6;"Detección de células caliciformes en las criptas intestinales, indicativas de
+producción de moco."
+Intestino;Biopsia;Interpretación;6.7;"Presencia de infiltración de células inflamatorias en la lámina propia, sugiriendo una
+respuesta inflamatoria crónica."
+Intestino;Biopsia;Interpretación;6.8;"Identificación de placas de Peyer en la mucosa intestinal, indicativas de tejido
+linfoide asociado al intestino."
+Intestino;Biopsia;Interpretación;6.9;"Signos de metaplasia intestinal, evidenciada por la presencia de células caliciformes
+en áreas no habituales."
+Intestino;Biopsia;Interpretación;6.10;"Presencia de signos de regeneración epitelial, indicativos de un proceso de
+reparación tras una lesión o inflamación."
+Esófago;Biopsia;Calidad;BEF.1;La muestra es válida para el examen.
+Esófago;Biopsia;Calidad;BEF.2;"Aunque válida, la muestra está limitada por la presencia de contenido alimenticio
+en la luz esofágica."
+Esófago;Biopsia;Calidad;BEF.3;"La muestra es válida para el examen, pero está limitada por la escasez de tejido
+epitelial en el corte."
+Esófago;Biopsia;Calidad;BEF.4;"La muestra es válida para el examen, pero está limitada por la presencia de
+artefactos de fijación."
+Esófago;Biopsia;Calidad;BEF.5;"La muestra es válida para el examen, aunque está limitada por la presencia de
+tejido conectivo periesofágico."
+Esófago;Biopsia;Calidad;BEF.6;La muestra es válida para el examen, aunque está limitada por...
+Esófago;Biopsia;Calidad;BEF.7;La muestra no es valorable debido a la desecación.
+Esófago;Biopsia;Calidad;BEF.8;La muestra no es valorable debido a la ausencia de tejido esofágico...
+Esófago;Biopsia;Calidad;BEF.9;La muestra no es valorable debido a...
+Esófago;Biopsia;Interpretación;7.1;"Se observa un epitelio escamoso estratificado bien conservado en la mucosa
+esofágica."
+Esófago;Biopsia;Interpretación;7.2;"Presencia de contenido alimenticio en la luz esofágica, indicando la fase de tránsito
+del proceso digestivo."
+Esófago;Biopsia;Interpretación;7.3;"Identificación de escaso tejido epitelial en el corte, sugiriendo posible atrofia o
+adelgazamiento del epitelio."
+Esófago;Biopsia;Interpretación;7.4;"Signos de artefactos de fijación en el tejido, lo que puede dificultar la interpretación
+precisa de algunas estructuras."
+Esófago;Biopsia;Interpretación;7.5;"Observación de tejido conectivo periesofágico, indicativo de la ubicación anatómica
+de la muestra."
+Esófago;Biopsia;Interpretación;7.6;"Detección de células caliciformes dispersas en la mucosa esofágica, sugiriendo
+producción de moco."
+Esófago;Biopsia;Interpretación;7.7;"Presencia de infiltración de células inflamatorias en la lámina propia, indicando una
+respuesta inflamatoria."
+Esófago;Biopsia;Interpretación;7.8;"Identificación de vasos sanguíneos y nervios en la submucosa esofágica,
+componentes normales del tejido."
+Esófago;Biopsia;Interpretación;7.9;"Signos de hiperplasia epitelial, evidenciada por un aumento en el número de capas
+celulares."
+Esófago;Biopsia;Interpretación;7.10;"Presencia de células de Langerhans en la mucosa esofágica, indicativas de una
+función inmunológica local."
+Testículos;Biopsia;Calidad;BT.1;La muestra es válida para el examen.
+Testículos;Biopsia;Calidad;BT.2;"Aunque válida, la muestra está limitada por la presencia de células germinales
+escasas."
+Testículos;Biopsia;Calidad;BT.3;"La muestra es válida para el examen, pero está limitada por la presencia de tejido
+fibroso intersticial."
+Testículos;Biopsia;Calidad;BT.4;"La muestra es válida para el examen, pero está limitada por la presencia de
+artefactos de fijación."
+Testículos;Biopsia;Calidad;BT.5;"La muestra es válida para el examen, aunque está limitada por la deshidratación
+del tejido."
+Testículos;Biopsia;Calidad;BT.6;La muestra es válida para el examen, aunque está limitada por...
+Testículos;Biopsia;Calidad;BT.7;La muestra no es valorable debido a la desecación.
+Testículos;Biopsia;Calidad;BT.8;La muestra no es valorable debido a la ausencia de tejido testicular...
+Testículos;Biopsia;Calidad;BT.9;La muestra no es valorable debido a...
+Testículos;Biopsia;Interpretación;8.1;"Se observa una arquitectura testicular conservada, con la presencia de túbulos
+seminíferos bien definidos."
+Testículos;Biopsia;Interpretación;8.2;"Presencia de células germinales escasas en los túbulos seminíferos, lo que puede
+indicar una disminución en la espermatogénesis."
+Testículos;Biopsia;Interpretación;8.3;"Identificación de tejido fibroso intersticial entre los túbulos seminíferos, sugiriendo
+una posible fibrosis testicular."
+Testículos;Biopsia;Interpretación;8.4;"Signos de artefactos de fijación en el tejido, lo que puede afectar la visualización
+precisa de algunas estructuras."
+Testículos;Biopsia;Interpretación;8.5;"Observación de deshidratación del tejido, lo que puede causar contracción y
+distorsión de las células y estructuras."
+Testículos;Biopsia;Interpretación;8.6;"Detección de células de Sertoli en los túbulos seminíferos, indicativas de su función
+de soporte para las células germinales."
+Testículos;Biopsia;Interpretación;8.7;"Presencia de células de Leydig en el tejido intersticial, responsables de la
+producción de testosterona."
+Testículos;Biopsia;Interpretación;8.8;"Identificación de células inmaduras o anormales en los túbulos seminíferos,
+sugiriendo un posible trastorno en la espermatogénesis."
+Testículos;Biopsia;Interpretación;8.9;"Signos de inflamación testicular, evidenciados por la presencia de células
+inflamatorias en el tejido."
+Testículos;Biopsia;Interpretación;8.10;"Presencia de células apoptóticas en los túbulos seminíferos, indicando un proceso
+de muerte celular programada, posiblemente relacionado con el daño testicular."
+Pulmón;Biopsia;Calidad;BP.1;La muestra es válida para el examen.
+Pulmón;Biopsia;Calidad;BP.2;"Aunque válida, la muestra está limitada por la presencia de tejido necrótico en el
+corte."
+Pulmón;Biopsia;Calidad;BP.3;"La muestra es válida para el examen, pero está limitada por la presencia de
+artefactos de fijación."
+Pulmón;Biopsia;Calidad;BP.4;"La muestra es válida para el examen, pero está limitada por la presencia de células
+inflamatorias abundantes."
+Pulmón;Biopsia;Calidad;BP.5;"La muestra es válida para el examen, aunque está limitada por la deshidratación
+del tejido."
+Pulmón;Biopsia;Calidad;BP.6;La muestra es válida para el examen, aunque está limitada por...
+Pulmón;Biopsia;Calidad;BP.7;La muestra no es valorable debido a la desecación.
+Pulmón;Biopsia;Calidad;BP.8;La muestra no es valorable debido a la ausencia de tejido pulmonar...
+Pulmón;Biopsia;Calidad;BP.9;La muestra no es valorable debido a...
+Pulmón;Biopsia;Interpretación;9.1;"Se observa una arquitectura pulmonar conservada, con la presencia de alvéolos bien
+definidos y paredes alveolares íntegras."
+Pulmón;Biopsia;Interpretación;9.2;"Presencia de tejido necrótico en el corte, sugiriendo un proceso de necrosis tisular,
+posiblemente debido a una lesión o enfermedad."
+Pulmón;Biopsia;Interpretación;9.3;"Identificación de artefactos de fijación en el tejido, lo que puede dificultar la
+interpretación precisa de algunas estructuras."
+Pulmón;Biopsia;Interpretación;9.4;"Signos de inflamación pulmonar, indicados por la presencia de células inflamatorias
+abundantes en el tejido."
+Pulmón;Biopsia;Interpretación;9.5;"Observación de deshidratación del tejido, lo que puede causar contracción y
+distorsión de las células y estructuras."
+Pulmón;Biopsia;Interpretación;9.6;Detección de tejido fibroso en los espacios alveolares, sugiriendo fibrosis pulmonar.
+Pulmón;Biopsia;Interpretación;9.7;"Presencia de células de metaplasia escamosa en las vías respiratorias, indicativas de
+una respuesta adaptativa al daño crónico."
+Pulmón;Biopsia;Interpretación;9.8;"Identificación de células neoplásicas en el tejido, sugiriendo un proceso tumoral
+pulmonar."
+Pulmón;Biopsia;Interpretación;9.9;"Signos de edema pulmonar, evidenciados por la presencia de líquido en los espacios
+alveolares."
+Pulmón;Biopsia;Interpretación;9.10;"Presencia de cuerpos extraños en el tejido, indicando inhalación de material
+extraño."
+Bazo;Biopsia;Calidad;BB.1;La muestra es válida para el examen.
+Bazo;Biopsia;Calidad;BB.2;"Aunque válida, la muestra está limitada por la presencia de tejido hemorrágico en
+el corte."
+Bazo;Biopsia;Calidad;BB.3;"La muestra es válida para el examen, pero está limitada por la escasez de tejido
+linfoide en la muestra."
+Bazo;Biopsia;Calidad;BB.4;"La muestra es válida para el examen, pero está limitada por la presencia de
+artefactos de fijación."
+Bazo;Biopsia;Calidad;BB.5;"La muestra es válida para el examen, aunque está limitada por la deshidratación
+del tejido."
+Bazo;Biopsia;Calidad;BB.6;La muestra es válida para el examen, aunque está limitada por...
+Bazo;Biopsia;Calidad;BB.7;La muestra no es valorable debido a la desecación.
+Bazo;Biopsia;Calidad;BB.8;La muestra no es valorable debido a la ausencia de tejido esplénico...
+Bazo;Biopsia;Calidad;BB.9;La muestra no es valorable debido a...
+Bazo;Biopsia;Interpretación;10.1;"Se observa una arquitectura esplénica conservada, con una adecuada distribución
+de la pulpa blanca y roja."
+Bazo;Biopsia;Interpretación;10.2;"Presencia de áreas de tejido hemorrágico en el corte, indicativo de hemorragia
+intraparenquimatosa reciente o traumática."
+Bazo;Biopsia;Interpretación;10.3;"Identificación de escaso tejido linfoide en la muestra, sugiriendo una posible
+atrofia o disminución de la actividad inmunológica."
+Bazo;Biopsia;Interpretación;10.4;"Signos de artefactos de fijación en el tejido, lo que puede dificultar la
+interpretación precisa de algunas estructuras."
+Bazo;Biopsia;Interpretación;10.5;"Observación de deshidratación del tejido, lo que puede causar contracción y
+distorsión de las células y estructuras."
+Bazo;Biopsia;Interpretación;10.6;"Se detecta un aumento en el tamaño de los folículos linfoides, indicativo de una
+respuesta inmunológica activa."
+Bazo;Biopsia;Interpretación;10.7;"Presencia de células plasmáticas en la pulpa blanca, sugiriendo una respuesta
+inmunitaria o inflamatoria."
+Bazo;Biopsia;Interpretación;10.8;"Identificación de células de la serie eritroide en la pulpa roja, indicando actividad
+hematopoyética."
+Bazo;Biopsia;Interpretación;10.9;"Se observa una marcada congestión vascular en la pulpa roja, posiblemente como
+respuesta a la hemorragia o a una estimulación inflamatoria."
+Bazo;Biopsia;Interpretación;10.10;"Presencia de células fagocíticas en la pulpa roja, indicativas de la función
+fagocítica del bazo en la eliminación de células sanguíneas viejas o anormales."
+Feto;Biopsia;Calidad;BF.1;Toma válida para examen.
+Feto;Biopsia;Calidad;BF.2;Toma válida para examen aunque limitada por tamaño del feto.
+Feto;Biopsia;Calidad;BF.3;"Toma válida para examen aunque limitada por artefactos de
+procesamiento."
+Feto;Biopsia;Calidad;BF.4;Toma válida para examen aunque limitada por deterioro del tejido fetal.
+Feto;Biopsia;Calidad;BF.5;"Toma válida para examen aunque limitada por presencia de líquido
+amniótico."
+Feto;Biopsia;Calidad;BF.6;Toma no valorable por desecación.
+Feto;Biopsia;Calidad;BF.7;Toma no valorable por ausencia de tejido fetal.
+Feto;Biopsia;Interpretación;11.1;Presencia de tejido fetal bien desarrollado.
+Feto;Biopsia;Interpretación;11.2;Presencia de órganos internos correctamente formados.
+Feto;Biopsia;Interpretación;11.3;Presencia de tejido nervioso en desarrollo.
+Feto;Biopsia;Interpretación;11.4;Presencia de células sanguíneas en formación.
+Feto;Biopsia;Interpretación;11.5;Presencia de huesos en proceso de osificación.
+Feto;Biopsia;Interpretación;11.6;Presencia de tejido muscular en desarrollo.
+Feto;Biopsia;Interpretación;11.7;Presencia de membranas fetales intactas.
+Feto;Biopsia;Interpretación;11.8;Presencia de cordón umbilical sin anomalías evidentes.
+Feto;Biopsia;Interpretación;11.9;Presencia de estructuras faciales reconocibles.
+Feto;Biopsia;Interpretación;11.10;Presencia de extremidades bien formadas.
+Cerebro;Biopsia;Calidad;BCB.1;Toma válida para examen.
+Cerebro;Biopsia;Calidad;BCB.2;Toma válida para examen aunque limitada por escasez de tejido cerebral.
+Cerebro;Biopsia;Calidad;BCB.3;Toma válida para examen aunque limitada por artefactos de procesamiento.
+Cerebro;Biopsia;Calidad;BCB.4;Toma válida para examen aunque limitada por hemorragia.
+Cerebro;Biopsia;Calidad;BCB.5;Toma válida para examen aunque limitada por necrosis extensa.
+Cerebro;Biopsia;Calidad;BCB.6;Toma no valorable por desecación.
+Cerebro;Biopsia;Calidad;BCB.7;Toma no valorable por ausencia de tejido cerebral.
+Cerebro;Biopsia;Interpretación;12.1;Presencia de neuronas.
+Cerebro;Biopsia;Interpretación;12.2;Presencia de células gliales.
+Cerebro;Biopsia;Interpretación;12.3;Presencia de fibras nerviosas mielinizadas.
+Cerebro;Biopsia;Interpretación;12.4;Presencia de fibras nerviosas no mielinizadas.
+Cerebro;Biopsia;Interpretación;12.5;Presencia de vasos sanguíneos.
+Cerebro;Biopsia;Interpretación;12.6;Presencia de células inflamatorias.
+Cerebro;Biopsia;Interpretación;12.7;Presencia de infiltración de células neoplásicas.
+Cerebro;Biopsia;Interpretación;12.8;Presencia de cuerpos de inclusión intracelulares.
+Cerebro;Biopsia;Interpretación;12.9;Presencia de placas de proteína beta-amiloide.
+Cerebro;Biopsia;Interpretación;12.10;Presencia de cuerpos de Lewy.
+Lengua;Biopsia;Calidad;BL.1;Toma válida para examen.
+Lengua;Biopsia;Calidad;BL.2;Toma válida para examen aunque limitada por escasez de tejido lingual.
+Lengua;Biopsia;Calidad;BL.3;"Toma válida para examen aunque limitada por artefactos de
+procesamiento."
+Lengua;Biopsia;Calidad;BL.4;Toma válida para examen aunque limitada por hemorragia.
+Lengua;Biopsia;Calidad;BL.5;Toma válida para examen aunque limitada por presencia de saliva.
+Lengua;Biopsia;Calidad;BL.6;Toma no valorable por desecación.
+Lengua;Biopsia;Calidad;BL.7;Toma no valorable por ausencia de tejido lingual.
+Lengua;Biopsia;Interpretación;13.1;Presencia de epitelio escamoso estratificado.
+Lengua;Biopsia;Interpretación;13.2;Presencia de papilas gustativas filiformes.
+Lengua;Biopsia;Interpretación;13.3;Presencia de papilas gustativas fungiformes.
+Lengua;Biopsia;Interpretación;13.4;Presencia de papilas gustativas foliadas.
+Lengua;Biopsia;Interpretación;13.5;Presencia de células caliciformes.
+Lengua;Biopsia;Interpretación;13.6;Presencia de células basales.
+Lengua;Biopsia;Interpretación;13.7;Presencia de células parabasales.
+Lengua;Biopsia;Interpretación;13.8;Presencia de células intermedias.
+Lengua;Biopsia;Interpretación;13.9;Presencia de células superficiales.
+Lengua;Biopsia;Interpretación;13.10;Presencia de células inflamatorias.
+Lengua;Biopsia;Interpretación;13.11;Presencia de células de Langerhans.
+Lengua;Biopsia;Interpretación;13.12;Presencia de células glandulares.
+Lengua;Biopsia;Interpretación;13.13;Presencia de células neoplásicas.
+Lengua;Biopsia;Interpretación;13.14;Presencia de células con cambios atípicos.
+Lengua;Biopsia;Interpretación;13.15;Presencia de cuerpos extraños.
+Ovario;Biopsia;Calidad;BO.1;Toma válida para examen.
+Ovario;Biopsia;Calidad;BO.2;"Toma válida para examen aunque limitada por escasez de tejido
+ovárico."
+Ovario;Biopsia;Calidad;BO.3;"Toma válida para examen aunque limitada por artefactos de
+procesamiento."
+Ovario;Biopsia;Calidad;BO.4;Toma válida para examen aunque limitada por hemorragia.
+Ovario;Biopsia;Calidad;BO.5;Toma válida para examen aunque limitada por necrosis extensa.
+Ovario;Biopsia;Calidad;BO.6;Toma no valorable por desecación.
+Ovario;Biopsia;Calidad;BO.7;Toma no valorable por ausencia de tejido ovárico.
+Ovario;Biopsia;Interpretación;14.1;Presencia de folículos primordiales.
+Ovario;Biopsia;Interpretación;14.2;Presencia de folículos primarios.
+Ovario;Biopsia;Interpretación;14.3;Presencia de folículos secundarios.
+Ovario;Biopsia;Interpretación;14.4;Presencia de folículos maduros.
+Ovario;Biopsia;Interpretación;14.5;Presencia de células de la granulosa.
+Ovario;Biopsia;Interpretación;14.6;Presencia de células de la teca.
+Ovario;Biopsia;Interpretación;14.7;Presencia de células lúteas.
+Ovario;Biopsia;Interpretación;14.8;Presencia de cuerpos albicans.
+Ovario;Biopsia;Interpretación;14.9;Presencia de células intersticiales.
+Ovario;Biopsia;Interpretación;14.10;Presencia de células estromales.
+Trompas de falopio;Biopsia;Calidad;BTF.1;Toma válida para examen.
+Trompas de falopio;Biopsia;Calidad;BTF.2;"Toma válida para examen aunque limitada por escasez de tejido
+tubárico."
+Trompas de falopio;Biopsia;Calidad;BTF.3;"Toma válida para examen aunque limitada por artefactos de
+procesamiento."
+Trompas de falopio;Biopsia;Calidad;BTF.4;Toma válida para examen aunque limitada por hemorragia.
+Trompas de falopio;Biopsia;Calidad;BTF.5;"Toma válida para examen aunque limitada por presencia de moco
+cervical."
+Trompas de falopio;Biopsia;Calidad;BTF.6;Toma no valorable por desecación.
+Trompas de falopio;Biopsia;Calidad;BTF.7;Toma no valorable por ausencia de tejido tubárico.
+Trompas de falopio;Biopsia;Interpretación;15.1;Presencia de epitelio cilíndrico.
+Trompas de falopio;Biopsia;Interpretación;15.2;Presencia de células ciliadas.
+Trompas de falopio;Biopsia;Interpretación;15.3;Presencia de células secretoras.
+Trompas de falopio;Biopsia;Interpretación;15.4;Presencia de células endometriales ectópicas.
+Trompas de falopio;Biopsia;Interpretación;15.5;Presencia de células inflamatorias.
+Trompas de falopio;Biopsia;Interpretación;15.6;Presencia de células escamosas metaplásicas.
+Trompas de falopio;Biopsia;Interpretación;15.7;Presencia de células glandulares atípicas.
+Trompas de falopio;Biopsia;Interpretación;15.8;Presencia de células endometriales.
+Trompas de falopio;Biopsia;Interpretación;15.9;Presencia de células estromales.
+Trompas de falopio;Biopsia;Interpretación;15.10;Presencia de cuerpos extraños.
+Páncreas;Biopsia;Calidad;BPA.1;Toma válida para examen.
+Páncreas;Biopsia;Calidad;BPA.2;"Toma válida para examen aunque limitada por escasez de tejido
+pancreático."
+Páncreas;Biopsia;Calidad;BPA.3;"Toma válida para examen aunque limitada por artefactos de
+procesamiento."
+Páncreas;Biopsia;Calidad;BPA.4;Toma válida para examen aunque limitada por necrosis extensa.
+Páncreas;Biopsia;Calidad;BPA.5;Toma válida para examen aunque limitada por hemorragia.
+Páncreas;Biopsia;Calidad;BPA.6;Toma no valorable por desecación.
+Páncreas;Biopsia;Calidad;BPA.7;Toma no valorable por ausencia de tejido pancreático.
+Páncreas;Biopsia;Interpretación;16.1;Presencia de células acinares.
+Páncreas;Biopsia;Interpretación;16.2;Presencia de islotes de Langerhans.
+Páncreas;Biopsia;Interpretación;16.3;Presencia de células ductales.
+Páncreas;Biopsia;Interpretación;16.4;Presencia de infiltración de células inflamatorias.
+Páncreas;Biopsia;Interpretación;16.5;Presencia de necrosis focal.
+Páncreas;Biopsia;Interpretación;16.6;Presencia de fibrosis intersticial.
+Páncreas;Biopsia;Interpretación;16.7;Presencia de células neoplásicas.
+Páncreas;Biopsia;Interpretación;16.8;Presencia de cuerpos de inclusión eosinofílicos.
+Páncreas;Biopsia;Interpretación;16.9;Presencia de calcificación distrófica.
+Páncreas;Biopsia;Interpretación;16.10;Presencia de células adiposas en el estroma.
+Piel;Biopsia;Calidad;BPI.1;Toma válida para examen.
+Piel;Biopsia;Calidad;BPI.2;"Toma válida para examen aunque limitada por ausencia de células
+endocervicales/zona de transición."
+Piel;Biopsia;Calidad;BPI.3;Toma válida para examen aunque limitada por hemorragia.
+Piel;Biopsia;Calidad;BPI.4;Toma válida para examen aunque limitada por escasez de células.
+Piel;Biopsia;Calidad;BPI.5;Toma válida para examen aunque limitada por intensa citólisis.
+Piel;Biopsia;Calidad;BPI.6;Toma no valorable por desecación.
+Piel;Biopsia;Calidad;BPI.7;Toma no valorable por ausencia de células.
+Piel;Biopsia;Interpretación;17.1;Predominio de células epiteliales escamosas superficiales.
+Piel;Biopsia;Interpretación;17.2;Predominio de células epiteliales escamosas intermedias.
+Piel;Biopsia;Interpretación;17.3;Predominio de células epiteliales escamosas parabasales.
+Piel;Biopsia;Interpretación;17.4;Poli nucleares neutrófilos.
+Piel;Biopsia;Interpretación;17.5;Células metaplásicas inmaduras.
+Piel;Biopsia;Interpretación;17.6;Células reactivas.
+Piel;Biopsia;Interpretación;17.7;Alteraciones celulares sugerentes de HPV.
+Piel;Biopsia;Interpretación;17.8;Alteraciones celulares sugerentes de Herpes.
+Piel;Biopsia;Interpretación;17.9;Células neoplásicas.
+Piel;Biopsia;Interpretación;17.10;Células superficiales e intermedias con cambios atípicos.
+Piel;Biopsia;Interpretación;17.11;Células intermedias y parabasales con algunos cambios atípicos.
+Piel;Biopsia;Interpretación;17.12;Células parabasales con algunos cambios atípicos.
+Piel;Biopsia;Interpretación;17.13;Células escamosas de significado incierto.
+Piel;Biopsia;Interpretación;17.14;Células epiteliales glandulares de significado incierto.
