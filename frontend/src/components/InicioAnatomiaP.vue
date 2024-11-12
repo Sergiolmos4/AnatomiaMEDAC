@@ -26,44 +26,24 @@ export default defineComponent({
         patológica.
       </h3>
     </div>
-
-    <div class="texto-inicio">
-      
-    </div>
+    <div class="texto-inicio"></div>
   </div>
+
+<!-- Div para el banner de publicidad -->
+<footer class="footer-banner">
+    <a href="https://www.amnesty.org/es/" target="_blank" rel="noopener noreferrer">
+      <img src="@/assets/img/amnesty.png" alt="Imagen de publicidad" class="footer-image"/>
+    </a>
+  </footer>
 </template>
+
 <style scoped>
 .inicio-container {
-  margin-top:150px;
-  border: 1px solid #c10202;
+  margin-top: 150px;
   width: 100%;
-  height: 914px;
-  border: 0px;
+  height: 80%;
   text-align: center;
-}
-
-.texto-inicio {
-  width: 1170px;
-  height: 40px;
-  border: 0px;
-  text-align: center;
-}
-
-h1 {
-  font-weight: 500;
-  font-size: 1.7rem;
-  text-align: center;
-  top: -10px;
-  color: #004676;
-}
-
-h3 {
-  font-size: 0.9rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
+  padding: 25px;
 }
 
 .tt-imagen {
@@ -71,32 +51,56 @@ h3 {
   background-color: #f5f5f5;
   text-align: center;
   margin: 0 auto;
-  margin-top: 0px;
   padding: 10px;
   border: 1px solid #004676;
   border-radius: 20px;
-  /*border-top-right-radius: 20px;*/
   font-weight: bold;
-  font-size:2.1rem;
+  font-size: 2.1rem;
 }
 
 .texto-tt-imagen {
   font-weight: bold;
   color: #004676;
+  margin-bottom: 5px; /* Reduce el espacio debajo del título */
 }
 
 .imagen-inicio {
-  height:40%;
-  width:54%;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  height: 40%;
+  width: 54%;
+  margin: 10px 20px; /* Reduce el margen superior e inferior */
   background-color: #f5f5f5;
-
-  /*border-top: 20px solid #f5f5f5; /* Añade un borde superior */
-  /*border-bottom: 50px solid #f5f5f5; /* Añade un borde inferior */
   border-radius: 20px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #004676;
+  margin: 10px 0; /* Reduce el margen superior e inferior */
+}
+
+h3 {
+  font-size: 0.9rem;
+  margin-top: 5px; /* Reduce el espacio superior */
+}
+
+.footer-banner { 
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra verticalmente el contenido */
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0; /* Fija el footer al borde inferior */
+  left: 0; /* Alinea el footer al borde izquierdo */
+  z-index: 1000; /* Asegura que el footer esté encima de otros elementos si es necesario */
+}
+
+.footer-image {
+  max-height: 100px;
+  margin: 0; /* Elimina cualquier margen */
 }
 
 @media (min-width: 1024px) {
@@ -105,4 +109,5 @@ h3 {
     text-align: left;
   }
 }
+
 </style>
