@@ -10,137 +10,263 @@ const searchQuery = () => {
 </script>
 
 <template>
-  <div id="padre">
-    <div id="app">
+  <div id="app">
       <div class="todo">
-        <div class="container1">
-          <div class="bloq">
-            <div class="titulo">Añadir muestra</div>
-            <div class="botones">
-              <button class="btn1" @click="changeWindow">Comenzar</button>
+  <div class="container0">
+  <div>
+    <!--<div class="centro"></div>-->
+      <div class="container1">
+        <div class="bloq">
+          <div class="titulo">Añadir nueva muestra</div>
+            <div class="texto">Lorem ipsum 
             </div>
-          </div>
-          <div class="img">
-            <img
-              class="img"
-              width="200px"
-              height="115px"
-              src="@/assets/img/tubos.png"
-              alt="muestras en tubo de ensayo"
-            />
-          </div>
+              <div class="botones">
+              <button class="btn1" @click="changeWindow">Comenzar →</button>
+              <!--<button class="btn2">Saber más...</button>-->
+              </div>
         </div>
-
-        <div class="container1">
-          <div class="bloq">
-            <div class="titulo">Editar muestra</div>
-            <div class="botones">
-              <button class="btn1" @click="searchQuery">Comenzar</button>
-            </div>
-          </div>
-          <div class="img">
-            <img
-              class="img"
-              width="200px"
-              height="115px"
-              src="@/assets/img/variostubos.png"
-              alt="muestras en tubo de ensayo"
-            />
-          </div>
-        </div>
-
-        <div class="container1">
-          <div class="bloq">
-            <div class="titulo">Consultar muestra</div>
-            <div class="botones">
-              <button class="btn1" @click="searchQuery">Comenzar</button>
-            </div>
-          </div>
-          <div class="img">
-            <img
-              class="img"
-              width="200px"
-              height="115px"
-              src="@/assets/img/microscopios.jpg"
-              alt="técnicos analizan muestras al microscopio"
-            />
-          </div>
+        <div class="img"><img  class="img" width="200px" height="115px" src="@/assets/img/tubos.png" alt="muestras en tubo de ensayo"></div>
         </div>
       </div>
+  
+      <div class="container1">
+        <div class="bloq">
+          <div class="titulo">Editar muestra</div>
+            <div class="texto">Lorem ipsum 
+            </div>
+              <div class="botones">
+              <button class="btn1">Comenzar →</button>
+              <!--<button class="btn2">Saber más...</button>-->
+              </div>
+        </div>
+        <div class="img"><img width="200px" height="115px" class="img" src="@/assets/img/variostubos.png" alt="muestras en tubo de ensayo"></div>
+        </div>
+      </div>
+  
+  
+    <div class="container1">
+        <div class="bloq">
+          <div class="titulo">Consultar muestra</div>
+          <div class="texto">Lorem ipsum </div>
+          <div class="botones">
+            <button class="btn1" @click="searchQuery">Comenzar →</button>
+            <!--<button class="btn2">Saber más...</button>-->
+          </div>
+        </div>
+        <div class="img"><img class="img" width="200px" height="115px" src="@/assets/img/microscopios.jpg" alt="técnicos analizan muestras al microscopio"></div>
+        </div>
     </div>
-  </div>
-</template>
+    </div>
+  </template>
+  
+  <script setup>
+    import { useRouter } from 'vue-router';
+    const router = useRouter();
+    const changeWindow = ()=>{
+        router.push('/muestras')
+    }
+    const searchQuery = ()=>{
+      router.push('/consultas')
+    }
+</script>
+  
+  <style scoped>
+  #app {
+    background-color: rgb(245, 245, 245);
+    margin-top:100px;
+  }
+  .body {
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 70, 118);
+    font-family: inter;
+  }
+  
+  .centro {
+    display: block;
+    position: webkit-sticky;
+    margin: auto;
+    width: 80vw;
+    height: 60vh;
+    margin-top: 0.5vh;
+    background-color: rgb(245, 245, 245);
+    z-index: -1;
+    border-radius: 0px 0px 20px 20px;
+  }
+  
+    .container1 {
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    text-align: center;
+    justify-content: space-between; /* Distribuye el espacio de manera uniforme */
+    gap: 10px; /* Espacio entre el texto y la imagen */
+    margin: auto;
+    background-color: white;
+    color: rgb(0, 70, 118);
+    margin-top: 2vh;
+    padding: 1%;
+    border-radius: 20px;
+    width: 35vw; /* Reduce el ancho */
+    max-height: 18vh; /* Limita la altura si es necesario */
+  }
 
-<style scoped>
-/* Estilo principal de la aplicación */
+  .bloq {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+  }
 
-#padre {
-  display: flex;
-  justify-content: center; /* Alinea los elementos horizontalmente en el centro */
-  align-items: center; /* Alinea los elementos verticalmente en el centro */
-  width: 100vw; /* Ancho del contenedor padre */
-  height: 100vh; /* Alto del contenedor padre */
-  background-color: white;
-}
-
-#app {
-  margin: 100px 0;
-}
-
-/* Estilo para cada contenedor de sección */
-.container1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Dos columnas: una para el contenido y otra para la imagen */
-  background-color: white;
-  color: rgb(0, 70, 118);
-  padding: 4%;
-  border-radius: 20px;
-  height: 160px;
-  width: 100%;
-  max-width: 1200px; /* Ajusta el tamaño máximo del contenedor */
-  grid-template-rows: repeat(3, auto); /* Tres filas para cada sección */
-  gap: 20px; /* Espaciado entre filas */
-  justify-items: center; /* Centrar las secciones horizontalmente */
-}
-
-/* Estilo para la columna de contenido */
-.bloq {
-  display: grid;
-  grid-template-rows: auto auto; /* Dos filas: una para el título y otra para el botón */
-  justify-content: center; /* Centrar contenido dentro de la columna */
-}
-
-/* Estilos para el título, texto y botones */
-.titulo {
-  font-size: 2.5vh;
-  font-weight: bold;
-  margin-top: 15px;
-}
-
-.botones {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.btn1 {
-  width: 8vw;
-  height: 5vh;
-  background-color: rgb(0, 70, 118);
-  color: rgb(245, 245, 245);
-  border-radius: 8px;
-  font-size: 13px;
-}
-
-.btn1:hover {
-  background-color: rgb(0, 50, 88);
-  cursor: pointer;
-}
-
-/* Estilo para la imagen */
-.img {
-  border-radius: 10px;
-  height: 100%;
-  align-self: center; /* Centrar la imagen verticalmente en su celda */
-}
-</style>
+    .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto; /* Centra la imagen */
+  }
+  
+  .container2 {
+    display: flex;
+    margin: auto;
+    z-index: +1;
+    background-color: white;
+    color: rgb(0, 70, 118);
+    margin-top: 2vh;
+    padding: 1%;
+    border-radius: 20px;
+    height: 18vh;
+    width: 80vw;
+    align-content: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+  }
+  
+  .container3 {
+    display: flex;
+    margin: auto;
+    z-index: +1;
+    background-color: white;
+    color: rgb(0, 70, 118);
+    margin-top: 2vh;
+    padding: 1%;
+    border-radius: 20px;
+    height: 18vh;
+    width: 80vw;
+    align-content: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+  }
+  
+  .izqda {
+    display: flex;
+    vertical-align: 70%;
+    margin: auto;
+    bottom: 10%;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-right: 20vw;
+  }
+  
+  .titulo {
+    display: flex;
+    text-align: left;
+    margin: 0px;
+    font-size: 4vh;
+    font-weight: bold;
+  }
+  
+  .textoizq {
+    display: flex;
+    width: 30vw;
+    text-align: justify;
+    margin: 0vh;
+    margin-top: 0vh;
+    font-size: 2.5vh;
+    place-content: center;
+    align-content: flex-start;
+  }
+  
+    .botones {
+    display: flex;
+    justify-content: center; /* Centra el botón horizontalmente */
+    margin-top: 0.5vh;
+  }
+  
+  .btn1 {
+    width: 10vw;
+    height: 7vh;
+    background-color: rgb(0, 70, 118);
+    color: rgb(245, 245, 245);
+    margin: 0.2vh;
+    border-radius: 8px;
+  }
+  
+  /*.btn2 {
+    width: 10vw;
+    height: 7vh;
+    background-color: rgb(224, 224, 224);
+    color: rgb(118, 118, 118);
+    margin: 0.2vh;
+    border-radius: 8px;
+  }
+  */
+  .imgdcha {
+    display: flex;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: auto;
+    flex-direction: row;
+    text-align: left;
+    place-content: left;
+    align-self: center;
+    flex-flow: row wrap;
+  }
+  
+  .dcha {
+    display: flex;
+    vertical-align: 70%;
+    margin: auto;
+    bottom: 10%;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 5vh;
+    text-align: right;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 20vw;
+  }
+  
+  .titulodcha {
+    display: flex;
+    text-align: left;
+    margin: 0px;
+    font-size: 4vh;
+    font-weight: bold;
+  }
+  
+  .textodcha {
+    display: flex;
+    width: 30vw;
+    text-align: justify;
+    margin: 0vh;
+    margin-top: 0vh;
+    font-size: 2.5vh;
+    place-content: center;
+    align-content: flex-start;
+  }
+  
+  .imgizqda {
+    display: flex;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: auto;
+    flex-direction: row;
+    text-align: left;
+    place-content: left;
+    align-self: center;
+    flex-flow: row wrap;
+    margin-left: 2vw;
+  }
+  </style>
